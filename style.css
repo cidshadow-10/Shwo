@@ -1,3 +1,15 @@
-body {
-    font-size: 15pt;
+p{
+    width: 70%;
+    background: gray;
+    padding: 10px;
+    position: relative;
+}
+p::before{
+    content: "";
+    height: 5px;
+    width: 100%;
+    background: green;
+    position: absolute;
+    left: 0;
+    top: 0;
 }
